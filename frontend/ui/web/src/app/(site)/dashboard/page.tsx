@@ -111,12 +111,12 @@ export default function Dashboard() {
         <div className="space-y-4">
           <div>
             <label className="block text-sm font-medium mb-1">名字</label>
-            <p className="p-2 bg-gray-100 rounded  min-h-[40px]">{user?.firstName}</p>
+            <p className="p-2 bg-gray-100 rounded min-h-[40px]">{user?.firstName}</p>
           </div>
 
           <div>
             <label className="block text-sm font-medium mb-1">姓氏</label>
-            <p className="p-2 bg-gray-100 rounded  min-h-[40px]">{user?.lastName}</p>
+            <p className="p-2 bg-gray-100 rounded min-h-[40px]">{user?.lastName}</p>
           </div>
 
           <div>
